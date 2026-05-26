@@ -23,7 +23,7 @@ export default function Hero() {
       
       <div className="w-full md:w-1/2 relative flex justify-center mt-6 sm:mt-10 md:mt-0">
         <div className="rounded-full bg-blue-50 overflow-hidden w-60 h-60 sm:w-72 sm:h-72 lg:w-[450px] lg:h-[450px]">
-          <img src="./public/photo.jpg" alt="Founder" className="w-full h-full object-cover" />
+          <img src="/photo.jpg" alt="Founder" className="w-full h-full object-cover" />
         </div>
         
         <div className="absolute top-4 left-4 sm:top-10 sm:left-10 bg-white p-2 sm:p-3 rounded-lg shadow-lg text-xs sm:text-sm font-semibold">100% Business Growth ⭐ 4.9</div>

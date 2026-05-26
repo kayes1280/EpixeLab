@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const teamMembers = [
-  { name: "Vanessa Laird", role: "UI DESIGNER", img: "./public/business2.jpg" },
-  { name: "Mason Campbell", role: "UI DESIGNER", img: "./public/business3.jpg" },
-  { name: "Irea Evans", role: "CLIENT MANAGER", img: "./public/business4.jpg" },
+  { name: "Vanessa Laird", role: "UI DESIGNER", img: "/business2.jpg" },
+  { name: "Mason Campbell", role: "UI DESIGNER", img: "/business3.jpg" },
+  { name: "Irea Evans", role: "CLIENT MANAGER", img: "/business4.jpg" },
 ];
 
 export default function Team() {
