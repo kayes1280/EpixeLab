@@ -1,10 +1,10 @@
 import React from 'react';
 
 const testimonials = [
-  { name: "RAYHAM CURRAN", text: "Get a fully retina ready site when you build with Startup Framework. Websites look sharper.", img: "./public/business4.jpg" },
-  { name: "KAYLEY FRAME", text: "As a business targeting high net worth individuals, we were looking for a slick, cool design.", img: "./public/business3.jpg" },
-  { name: "GENE WHITFIELD", text: "The most important part of the Startup Framework is the samples and ease of use.", img: "./public/business2.jpg" },
-  { name: "ALLAN KIM", text: "I've built my website with Startup in one day, and it was ready-to-go immediately.", img: "./public/business1.jpg" },
+  { name: "RAYHAM CURRAN", text: "Get a fully retina ready site when you build with Startup Framework. Websites look sharper.", img: "/business4.jpg" },
+  { name: "KAYLEY FRAME", text: "As a business targeting high net worth individuals, we were looking for a slick, cool design.", img: "/business3.jpg" },
+  { name: "GENE WHITFIELD", text: "The most important part of the Startup Framework is the samples and ease of use.", img: "/business2.jpg" },
+  { name: "ALLAN KIM", text: "I've built my website with Startup in one day, and it was ready-to-go immediately.", img: "/business1.jpg" },
 ];
 
 export default function Testimonials() {

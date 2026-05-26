@@ -6,13 +6,11 @@ export default function Newsletter(){
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Subscribed with:", email);
-    // Add your newsletter logic here
   };
 
   return (
     <section className="py-10 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-10 bg-white">
       <div className="max-w-6xl mx-auto">
-        {/* Header Part */}
         <div className="text-center mb-8 sm:mb-12">
           <p className="text-gray-400 font-bold uppercase tracking-[0.2em] text-[10px] mb-2">
             OUR TEAM
@@ -22,13 +20,10 @@ export default function Newsletter(){
           </h2>
         </div>
 
-        {/* Content Part */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-20">
           
-          {/* Left: 3D Illustration Placeholder */}
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
             <div className="relative w-48 h-48 sm:w-60 sm:h-60 lg:w-80 lg:h-80">
-              {/* Replace the src with your actual 3D envelope image path */}
               <img 
                 src="mailbox.png" 
                 alt="Newsletter Illustration" 
@@ -37,7 +32,6 @@ export default function Newsletter(){
             </div>
           </div>
 
-          {/* Right: Form Part */}
           <div className="w-full lg:w-1/2">
             <p className="text-gray-500 text-xs sm:text-sm leading-relaxed mb-6 sm:mb-8 max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -45,7 +39,6 @@ export default function Newsletter(){
             </p>
 
             <form onSubmit={handleSubscribe} className="max-w-md space-y-4 sm:space-y-6 w-full">
-              {/* Input Field */}
               <div className="relative">
                 <input
                   type="email"
@@ -57,7 +50,6 @@ export default function Newsletter(){
                 />
               </div>
 
-              {/* Subscribe Button */}
               <button
                 type="submit"
                 className="w-full bg-[#FF6A00] hover:bg-[#e55f00] text-white font-bold py-4 sm:py-5 rounded-lg shadow-lg shadow-orange-200 transition-all active:scale-[0.98] text-sm sm:text-base min-h-12 sm:min-h-auto"
